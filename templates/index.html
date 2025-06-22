@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor Claim App</title>
+</head>
+<body>
+  <h2>Record a Claim</h2>
+  <button id="startBtn">Start</button>
+  <button id="stopBtn" disabled>Stop</button>
+  <p id="status">Not recording</p>
+
+  <!-- Placeholders for results -->
+  <p id="transcript"></p>
+  <p id="claim"></p>
+  <p id="validity"></p>
+  <p id="question"></p>
+  <p id="sources"></p>
+
+  <!-- Recorder.js library -->
+  <script src="{{ url_for('static', filename='recorder-lib/recorder.js') }}"></script>
+  <!-- Your custom recorder logic -->
+  <script src="{{ url_for('static', filename='recorder.js') }}"></script>
+</body>
+</html>
