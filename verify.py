@@ -117,7 +117,6 @@ def get_verification_info(query_text):
 
     return parsed_dict
 
-print(get_verification_info("coughing is a sign of cancer"))
 
 #returns in the below format
 """
